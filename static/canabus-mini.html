@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/static/css/main.css" />
+  <title>CANaBUS Mini | Fathom Robotics</title>
+</head>
+<body>
+  <div id="site-header"></div>
+  <main>
+    <section class="section" id="canabus-mini">
+      <div class="container">
+        <h2>CANaBUS Mini</h2>
+        <div id="canabus-mini-section-placeholder"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="/static/js/includes.js"></script>
+  <script>
+    (async () => {
+      await loadFragment("/static/header.html", "site-header");
+      await loadFragment("/static/footer.html", "site-footer");
+      await loadFragment("/static/canabus-mini-section.html", "canabus-mini-section-placeholder");
+      initHeaderNav();
+      setYear();
+    })();
+  </script>
+</body>
+</html>
