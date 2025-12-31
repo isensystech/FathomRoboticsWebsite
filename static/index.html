@@ -12,7 +12,6 @@
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
     <link rel="icon" href="images/favicon.ico">
-
 </head>
 
 <body>
@@ -679,12 +678,31 @@
         <div class="grid-3">
           <div class="card">
             <h3>CANaBUS Maximus</h3>
-            <p>Design for predictable behavior and clear operator control.</p>
+            <img src="images/canabus-maximus.png" alt="CANaBUS Maximus" style="width:100%; border-radius:12px; margin-bottom:12px;">
+            <p>
+              Use this section for a short, scannable overview: what it does, where it works,
+              and what makes it different.
+            </p>
           </div>
-          <div id="canabus-mini-card-placeholder"></div>
+
+          <div id="canabus-mini-card-placeholder">
+            <div class="card" id="canabus-mini-card">
+              <h3>CANaBUS Mini</h3>
+              <img src="images/canabus-mini.png" alt="CANaBUS Mini" style="width:100%; border-radius:12px; margin-bottom:12px;">
+              <h4>Core Operating Modes</h4>
+              <p><strong>Mode 1: Standalone CAN Transceiver &amp; Protocol Translator</strong> Functions as an intelligent gateway, converting proprietary protocols into NMEA 2000 or JSON via Ethernet/Serial using proprietary .dbc files.</p>
+              <p><strong>· Use Cases:</strong> Professional commercial USV operations, remote shore-based piloting, and fleet management (coming soon).</p>
+              <p><strong>· Key Features:</strong> Zero-install web interface, real-time telemetry with custom widgets, &lt;100ms command latency, mission replay, and modular sensor fusion. Includes advanced payload release capabilities extending beyond the standard ArduPilot scope.</p>
+              <br><br>
+              <h4>Key Highlights</h4>
+              <p><strong>Multi-Protocol Marine Integration:</strong> Interfaces with proprietary CAN protocols from major manufacturers like Volvo Penta, Yamaha, Mercury, Garmin, and Raymarine to eliminate vendor lock-in.</p>
+              <p><strong>Remote Web Interface:</strong> Native compatibility with the Fathom Robotics USV Companion Interface for real-time telemetry, diagnostics, and piloting from any browser.</p>
+            </div>
+          </div>
+          
           <div class="card" id="e-stop-card">
             <h3>E-STOP Receiver</h3>
-             <img src="images/e-stop.jpg" alt="E-stop" style="width:100%; border-radius:12px; margin-bottom:12px;">
+             <img src="images/e-stop.png" alt="E-stop" style="width:100%; border-radius:12px; margin-bottom:12px;">
             <h4>Core Operating Modes</h4>
             <p><strong>Mode 1: Standalone CAN Transceiver &amp; Protocol Translator</strong> Functions as an intelligent gateway, converting proprietary protocols into NMEA 2000 or JSON via Ethernet/Serial using proprietary .dbc files.</p>
             <p><strong>· Use Cases:</strong> Professional commercial USV operations, remote shore-based piloting, and fleet management (coming soon).</p>
@@ -776,7 +794,9 @@
         <h3 class="svg-modal-title">CANaBUS Maximus</h3>
         <button class="svg-modal-close" type="button" aria-label="Close">×</button>
       </header>
-      <div class="svg-modal-body">Testing copy: primary Canabas module selected.</div>
+      <img src="images/canabus-maximus.png" alt="CANaBUS Maximus" style="width:100%; border-radius:12px; margin-bottom:12px;">
+      <div class="svg-modal-body">A versatile marine CAN interface for autonomous and remotely operated vessels. It bridges legacy marine hardware with modern control systems, supporting ROS2, ArduPilot, and the Fathom Robotics USV Companion Interface while delivering real-time performance in harsh marine environments.</div>
+      <a class="svg-modal-link" href="canabus-maximus.html">Read full details</a>
     </div>
 
     <div class="svg-modal" data-modal-id="canabas-mini-1" role="dialog" aria-modal="true">
@@ -784,7 +804,7 @@
         <h3 class="svg-modal-title">CANaBUS Mini</h3>
         <button class="svg-modal-close" type="button" aria-label="Close">×</button>
       </header>
-      <img src="images/3.jpg" alt="CANaBUS Mini" style="width:100%; border-radius:12px; margin-bottom:12px;">
+      <img src="images/canabus-mini.png" alt="CANaBUS Mini" style="width:100%; border-radius:12px; margin-bottom:12px;">
       <div class="svg-modal-body">A versatile marine CAN interface for autonomous and remotely operated vessels. It bridges legacy marine hardware with modern control systems, supporting ROS2, ArduPilot, and the Fathom Robotics USV Companion Interface while delivering real-time performance in harsh marine environments.</div>
       <a class="svg-modal-link" href="canabus-mini.html">Read full details</a>
     </div>
@@ -794,6 +814,7 @@
         <h3 class="svg-modal-title">CANaBUS Mini</h3>
         <button class="svg-modal-close" type="button" aria-label="Close">×</button>
       </header>
+      <img src="images/canabus-mini.png" alt="CANaBUS Mini" style="width:100%; border-radius:12px; margin-bottom:12px;">
       <div class="svg-modal-body">A versatile marine CAN interface for autonomous and remotely operated vessels. It bridges legacy marine hardware with modern control systems, supporting ROS2, ArduPilot, and the Fathom Robotics USV Companion Interface while delivering real-time performance in harsh marine environments.</div>
       <a class="svg-modal-link" href="canabus-mini.html">Read full details</a>
     </div>
@@ -803,8 +824,9 @@
         <h3 class="svg-modal-title">E-STOP Receiver</h3>
         <button class="svg-modal-close" type="button" aria-label="Close">×</button>
       </header>
-      <div class="svg-modal-body">Testing copy: Antenna node 2 details.</div>
-      <a class="svg-modal-link" href="#e-stop-card">Read full details</a>
+      <img src="images/e-stop.png" alt="E-STOP Receiver" style="width:100%; border-radius:12px; margin-bottom:12px;">
+      <div class="svg-modal-body">A versatile marine CAN interface for autonomous and remotely operated vessels. It bridges legacy marine hardware with modern control systems, supporting ROS2, ArduPilot, and the Fathom Robotics USV Companion Interface while delivering real-time performance in harsh marine environments.</div>
+      <a class="svg-modal-link" href="e-stop.html">Read full details</a>
     </div>
 
   </div>

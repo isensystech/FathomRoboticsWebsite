@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/main.css" />
+  <title>E-STOP Receiver | Fathom Robotics</title>
+</head>
+<body>
+  <div id="site-header"></div>
+  <main>
+    <section class="section" id="e-stop">
+      <div class="container">
+        <h2>E-STOP Receiver</h2>
+        <div class="card" id="e-stop-card">
+          <h3>E-STOP Receiver</h3>
+          <img src="images/e-stop.png" alt="E-STOP Receiver" style="width:100%; border-radius:12px; margin-bottom:12px;">
+          <h4>Core Capabilities</h4>
+          <p>Dedicated safety channel for reliable remote stop control across marine systems.</p>
+          <p><strong>· Safety:</strong> Fast, deterministic stop signaling with isolation from primary control buses.</p>
+          <p><strong>· Integration:</strong> Compatible with autonomy stacks and manual override workflows.</p>
+          <p><strong>· Enclosure:</strong> Marine-grade build suitable for harsh operational environments.</p>
+          <p><strong>· Telemetry:</strong> Works with the Fathom Robotics USV Companion Interface for visibility and logging.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="js/includes.js"></script>
+  <script>
+    (async () => {
+      await loadFragment("header.html", "site-header");
+      await loadFragment("footer.html", "site-footer");
+      initHeaderNav();
+      setYear();
+    })();
+  </script>
+</body>
+</html>
