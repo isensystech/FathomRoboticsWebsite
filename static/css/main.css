@@ -292,9 +292,6 @@ svg .boat-text {
 svg .boat-text:hover,
 svg .boat-text-part:hover .boat-text,
 svg .boat-text-part.is-hovered .boat-text {
-  stroke-opacity: 1;
-  stroke: #ffffff;
-
   filter:
     drop-shadow(0 0 4px rgba(255,255,255,1))
     drop-shadow(0 0 10px rgba(255,255,255,0.8));
