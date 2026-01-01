@@ -319,10 +319,11 @@ svg .boat-text-part.is-hovered .boat-main-text {
   pointer-events: none;
 }
 
-/* Underline text on hover to indicate clickability */
-svg .boat-text:hover .product-label-text,
-svg .boat-main-text:hover .product-label-text,
-svg .boat-text-part:hover .product-label-text {
+/* Underline text on hover to indicate clickability - ONLY for product links */
+svg #canabas-maximus:hover .product-label-text,
+svg #canabas-mini-1:hover .product-label-text,
+svg #canabas-mini-2:hover .product-label-text,
+svg #e-stop-receiver:hover .product-label-text {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
